@@ -1,55 +1,17 @@
 "GameMenu" [$WIN32]
 {
-	"CasualButton"
-	{
-		"label" "#MMenu_PlayMultiplayer" 
-		"command" "play_casual"
-		"subimage" "glyph_multiplayer"
-		"OnlyAtMenu" "1"
-		"tooltip" "Casual"
-	}
-	"QuickplayChangeButton"
-	{
-		"label" "#MMenu_NewGame" 
-		"command" "play_casual"
-		"subimage" "glyph_server"
-		"OnlyInGame" "1"
-		"tooltip" "Casual"
-	}
-	"MvMButton"
-	{
-		"label" "#MMenu_PlayCoop" 
-		"command" "play_mvm"
-		"subimage" "glyph_coop"
-		"tooltip" "MvM"
-	}
-	"CompetitiveButton"
-	{
-		"label" "Competitive"
-		"command" "play_competitive"
-		"subimage" "glyph_practice"
-		"tooltip" "Competitive"
-	}
 	"ServerBrowserButton"
 	{
 		"label" "Server browser" 
 		"command" "OpenServerBrowser"
 		"subimage" "glyph_server_browser"
-		"OnlyAtMenu" "1"
 	} 
-	"ChangeServerButton"
+	"ConsoleButton"
 	{
-		"label" "#MMenu_ChangeServer" 
-		"command" "OpenServerBrowser"
-		"subimage" "glyph_server_browser"
-		"OnlyInGame" "1"
-	}
-	"ReplayBrowserButton"
-	{
-		"label" "Replays"
-		"command" "engine replay_reloadbrowser"
+		"label" "Console"
+		"command" "engine showconsole"
 		"subimage" "glyph_tv"
-		"tooltip" "Replays browser"
+		"tooltip" "Open Console"
 	}
 	"SteamWorkshopButton"
 	{
@@ -64,7 +26,7 @@
 	{
 		"label" "Create Server"
 		"command" "OpenCreateMultiplayerGameDialog"
-		"OnlyAtMenu" "1"
+		"subimage" "glyph_create"
 	}
 	"GeneralStoreButton"
 	{
@@ -81,13 +43,6 @@
 
 	// These buttons are only shown while in-game
 	// and also are positioned by the .res file
-	"ResumeGameButton"
-	{
-		"label"			"#MMenu_ResumeGame"
-		"command"		"ResumeGame"
-		"OnlyInGame"	"1"
-		"subimage" "icon_resume"
-	}
 	"CallVoteButton"
 	{
 		"label"			""
