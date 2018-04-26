@@ -178,11 +178,10 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"-1"
-		"wide"			"180"
+		"wide"			"260"
 		"tall"			"f40"
 		"visible"		"1"
 		"PaintBackgroundType"	"2"
-		"border"		"MainMenuButtonDefault"
 		"proportionaltoparent"	"1"
 
 		if_mini
@@ -191,15 +190,14 @@
 			"ypos"			"cs-0.5"
 			"tall"			"35"
 			"wide"			"505"
-			"border"		"MainMenuBGBorder"
 		}
 
 		"NameLabel"
 		{
 			"ControlName"	"Label"
 			"fieldName"		"NameLabel"
-			"xpos"			"4"
-			"ypos"			"10"
+			"xpos"			"65"
+			"ypos"			"0"
 			"wide"			"175"
 			"zpos"			"100"
 			"tall"			"20"
@@ -222,12 +220,12 @@
 			}
 		}
 
-		"LevelLabel"
+		"DescLine1"
 		{
-			"ControlName"	"Label"
-			"fieldName"		"LevelLabel"
-			"xpos"			"4"
-			"ypos"			"25"
+			"ControlName"	"CAutoFittingLabel"
+			"fieldName"		"DescLine1"
+			"xpos"			"65"
+			"ypos"			"15"
 			"wide"			"175"
 			"zpos"			"100"
 			"tall"			"20"
@@ -236,7 +234,7 @@
 			"font"			"QHUDFont14"
 			"fgcolor_override"	"46 43 42 255"
 			"textAlignment"	"north-west"
-			"labelText"		"%level%"
+			"labelText"		"%desc1%"
 			"proportionaltoparent"	"1"
 
 			if_mini
@@ -248,13 +246,61 @@
 				"fgcolor_override"	"TanLight"
 				"textAlignment"	"north-west"
 			}
+
+			"fonts"
+			{
+				"0"		"QHUDFont14"
+				"1"		"QHUDFont14"
+				"2"		"QHUDFont14"
+			}
+		}
+
+		"DescLine2"
+		{
+			"ControlName"	"CAutoFittingLabel"
+			"fieldName"		"DescLine2"
+			"xpos"			"65"
+			"ypos"			"29"
+			"wide"			"175"
+			"zpos"			"100"
+			"tall"			"20"
+			"visible"		"1"
+			"enabled"		"1"
+			"font"			"QHUDFont14"
+			"fgcolor_override"	"46 43 42 255"
+			"textAlignment"	"north-west"
+			"labelText"		"%desc2%"
+			"proportionaltoparent"	"1"
+
+			if_mini
+			{
+				"xpos"	"67"
+				"wide"	"f0"
+				"ypos"	"4"
+				"font"			"HudFontSmallestBold"
+				"fgcolor_override"	"TanLight"
+				"textAlignment"	"north-west"
+			}
+
+			"fonts"
+			{
+				"0"		"QHUDFont14"
+				"1"		"QHUDFont14"
+				"2"		"QHUDFont14"
+			}
+
+			"colors"
+			{
+				"1"		"CreditsGreen"
+				"2"		"TanLight"
+			}
 		}
 
 		"StatsContainer"
 		{
 			"ControlName"	"EditablePanel"
 			"fieldName"		"StatsContainer"
-			"xpos"			"3"
+			"xpos"			"64"
 			"ypos"			"0"
 			"wide"			"175"
 			"tall"			"f0"
