@@ -22,13 +22,13 @@
 
 		if_match
 		{
-			"xpos"				"30"
-			"ypos"				"0"
+			"xpos"			"30"
+			"ypos"			"-2"
 		}
 		
 		"TimePanelValue"
 		{
-			"ControlName"		"CExLabel"
+			"ControlName"	"CExLabel"
 			"fieldName"		"TimePanelValue"
 			"font"			"QHUDFont14"
 			"fgcolor"		"20 150 255 255"
@@ -39,12 +39,12 @@
 			"tall"			"25"
 			"visible"		"1"
 			"enabled"		"1"
-			"textAlignment"		"center"
+			"textAlignment"	"center"
 			"labelText"		"0:00"
 			
 			if_match
 			{
-				"font"			"QHUDFont12"
+				"font"		"QHUDFont10"
 			}
 		}	
 	}
@@ -63,13 +63,13 @@
 		
 		if_match
 		{
-			"xpos"				"60"
-			"ypos"				"0"
+			"xpos"			"64"
+			"ypos"			"-2"
 		}
 		
 		"TimePanelValue"
 		{
-			"ControlName"		"CExLabel"
+			"ControlName"	"CExLabel"
 			"fieldName"		"TimePanelValue"
 			"font"			"QHUDFont14"
 			"fgcolor"		"200 40 20 255"
@@ -80,28 +80,28 @@
 			"tall"			"25"
 			"visible"		"1"
 			"enabled"		"1"
-			"textAlignment"		"center"
+			"textAlignment"	"center"
 			"labelText"		"0:00"
 			
 			if_match
 			{
-				"font"			"QHUDFont12"
+				"font"		"QHUDFont10"
 			}
 		}	
 	}
 	
 	"ActiveTimerBG"
 	{
-		"ControlName"		"ImagePanel"
-		"fieldName"			"ActiveTimerBG"
+		"ControlName"	"ImagePanel"
+		"fieldName"		"ActiveTimerBG"
 		"xpos"			"0"
 		"ypos"			"-4"
 		"zpos"			"1"
 		"wide"			"37"
 		"tall"			"17"
-		"visible"			"0"
-		"enabled"			"1"
-		"fillcolor"   		"0 0 0 100"	
-		"scaleImage"		"1"	
+		"visible"		"0"
+		"enabled"		"1"
+		"fillcolor"   	"0 0 0 100"	
+		"scaleImage"	"1"	
 	}
 }

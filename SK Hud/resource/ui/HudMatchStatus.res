@@ -273,7 +273,7 @@
 		"tall"				"150"
 		"visible"			"0"
 		"enabled"			"1"
-		"delta_item_x"			"17"	[$WIN32]
+		"delta_item_x"			"17"
 		"delta_item_start_y"		"14"
 		"delta_item_end_y"		"14"
 		"PositiveColor"			"0 255 0 255"
@@ -283,12 +283,14 @@
 		
 		if_match
 		{
-			"zpos"			"5"
+			"xpos"				"c-34"
+			"ypos"				"9"
+			"zpos"				"5"
 		}
 		
 		"TimePanelValue"
 		{
-			"ControlName"		"CExLabel"
+			"ControlName"	"CExLabel"
 			"fieldName"		"TimePanelValue"
 			"font"			"QHUDFont20"
 			"fgcolor"		"235 226 202 255"
@@ -299,14 +301,12 @@
 			"tall"			"32"
 			"visible"		"1"
 			"enabled"		"1"
-			"textAlignment"		"center"
+			"textAlignment"	"center"
 			"labelText"		"0:00"
 			
 			if_match
 			{
-				"font"			"QHUDFont12"
-				"xpos"			"-5"
-				"ypos"			"1"
+				"font"		"QHUDFont12"
 			}
 		}
 	}
