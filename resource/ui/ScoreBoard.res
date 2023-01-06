@@ -421,9 +421,7 @@
 		
 		if_mvm
 		{
-			"textAlignment"		"west"
-			"xpos"			"c-195"
-			"ypos"			"65"
+			"visible"		"0"
 		}
 	}
 	"ServerTimeLeft"
@@ -447,9 +445,7 @@
 		
 		if_mvm
 		{
-			"textAlignment"		"west"
-			"xpos"			"c-195"
-			"ypos"			"75"
+			"visible"		"0"
 		}
 	}							
 	"BluePlayerList"
@@ -1770,7 +1766,7 @@
 		"ControlName"		"CTFHudMannVsMachineScoreboard"
 		"fieldName"			"MvMScoreboard"
 		"xpos"				"c-300"
-		"ypos"				"0"
+		"ypos"				"-8"
 		"zpos"				"10"
 		"wide"				"f0"
 		"tall"				"480"
